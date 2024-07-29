@@ -5,10 +5,10 @@ export default {
 </script>
 <template>
     <header class="bg-white py-3">
-        <div class="container d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
             <img src="../assets/dc-logo.png" alt="DC Logo" class="me-3">
-            <nav class="ms-auto">
-                <ul class="nav">
+            <nav class="flex-grow-1">
+                <ul class="nav justify-content-end me-5" style="margin-right: 20%;">
                     <li class="nav-item">
                         <a class="nav-link text-uppercase text-dark" href="#">Characters</a>
                     </li>

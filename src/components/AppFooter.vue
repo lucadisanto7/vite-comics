@@ -114,31 +114,5 @@ export default {
     text-decoration: underline;
     color: white;
 }
-.footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    z-index: 2;
-}
-.footer a {
-    color: #00f;
-    text-decoration: none;
-}
-.footer a:hover {
-    text-decoration: underline;
-}
-.social-icons a {
-    color: #999;
-    font-size: 24px;
-    margin: 0 10px;
-}
-.social-icons a:hover {
-    color: #fff;
-}
-.white{
-    color: white;
-}
-.btn{
-    padding: 15px;
-}
+
 </style>

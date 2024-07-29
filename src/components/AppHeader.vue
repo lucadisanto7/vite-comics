@@ -44,7 +44,7 @@ export default {
         </div>
     </header>
 </template>
-<style>
+<style lang="scss">
       nav{
         font-weight: bold;
        }

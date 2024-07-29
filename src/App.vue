@@ -19,6 +19,6 @@ export default {
     <AppFooter />
   </div>
 </template>
-<style>
-  
+<style lang="scss">
+@use '../styles/partials/generals.scss'
 </style>

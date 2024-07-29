@@ -40,11 +40,11 @@ export default {
             </div>
         </div>
     </section>
-    
+
     </main>
     
 </template>
-<style>
+<style lang="scss">
 .icon {
     width: 70px; 
     height: auto;

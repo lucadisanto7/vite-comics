@@ -45,6 +45,23 @@ export default {
     
 </template>
 <style>
+.icon {
+    width: 70px; 
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;  
+}
+.icon-2{
+    width: 50px;
+}
 
+h5 {
+    font-size: 20px;
+    margin-left: 5px;  
+}
+
+.bg-blue{
+    background-color: #0383f9;
+}
 
 </style>

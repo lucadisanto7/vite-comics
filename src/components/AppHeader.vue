@@ -4,37 +4,48 @@ export default {
 }
 </script>
 <template>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <img src="../assets/dc-logo.png" alt="">
-                </div>
-                <div class="col-8">
-                    <ul>
-                        <li><a href="">CHARACTERS</a></li>
-                        <li><a href="">COMICS</a></li>
-                        <li><a href="">MOVIES</a></li>
-                        <li><a href="">TV</a></li>
-                        <li><a href="">GAMES</a></li>
-                        <li><a href="">COLLECTIBLES</a></li>
-                        <li><a href="">VIDEOS</a></li>
-                        <li><a href="">FANS</a></li>
-                        <li><a href="">NEWS</a></li>
-                        <li><a href="">SHOP</a></li>
-                    </ul>
-                </div>
-            </div>
+    <header class="bg-white py-3">
+        <div class="container d-flex align-items-center">
+            <img src="../assets/dc-logo.png" alt="DC Logo" class="me-3">
+            <nav class="ms-auto">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#">Characters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#">Comics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#">TV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#">Collectibles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#">Fans</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#">Shop</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
 </template>
 <style>
-    a{
-        text-decoration: none;
-    }
-    ul{
-        list-style-type: none;
-        display: flex;
-        gap: 30px;
-    }
+      nav{
+        font-weight: bold;
+       }
 </style>

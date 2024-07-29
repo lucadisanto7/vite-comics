@@ -48,4 +48,32 @@ export default {
       nav{
         font-weight: bold;
        }
+       .nav-link {
+        font-weight: bold;
+        position: relative;
+        transition: color 0.3s;
+    }
+    
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 5px;
+        display: block;
+        margin-top: 15px;
+        right: 0;
+        background: #0383f9;
+        transition: width 0.3s ease;
+    }
+    
+    .nav-link:hover {
+        color: #0383f9;
+    }
+    
+    .nav-link:hover::after {
+        width: 100%;
+        left: 0;
+        background: #0383f9;
+    }
+    
 </style>

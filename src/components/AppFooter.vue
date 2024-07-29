@@ -77,6 +77,7 @@ export default {
     </div>
 </template>
 <style lang="scss">
+@use '../styles/partials/generals.scss';
 .bg-dc {
     background: url('../assets/dc-logo-bg.png') no-repeat center center;
     background-size: cover;

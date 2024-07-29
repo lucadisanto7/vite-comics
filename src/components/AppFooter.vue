@@ -5,15 +5,14 @@ export default {
 </script>
 <template>
     <div>
-        <body>
-            <div class="bg-dc d-flex justify-content-center align-items-center">
-                <img src="../assets/dc-logo-bg.png" alt="DC Logo">
-            </div>
-        
+        <body>       
             <div class="footer-bg">
+                <div class="bg-dc d-flex justify-content-center align-items-center">
+                    <img src="../assets/dc-logo-bg.png" alt="DC Logo">
+                </div>
                 <div class="container">
                     <div class="row footer-links">
-                        <div class="col-md-2">
+                        <div class="col-md-2 mb-4 mt-4">
                             <h5>DC COMICS</h5>
                             <ul class="list-unstyled">
                                 <li><a href="#">Characters</a></li>
@@ -30,7 +29,7 @@ export default {
                               <li><a href="#">Shop DC Collectibles</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 mt-4">
                             <h5>DC</h5>
                             <ul class="list-unstyled">
                                 <li><a href="#">Terms Of Use</a></li>
@@ -46,7 +45,7 @@ export default {
                                 <li><a href="#">Contact Us</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 mt-4">
                             <h5>SITES</h5>
                             <ul class="list-unstyled">
                                 <li><a href="#">DC</a></li>
@@ -60,6 +59,21 @@ export default {
                 </div>
             </div>
         </body>
+        <footer class="footer d-flex justify-content-between align-items-center">
+            <div class="ml-4 container">
+                <button class="btn btn-outline-primary white">SIGN-UP NOW!</button>
+            </div>
+            <div class="d-flex align-items-center">
+                <span class="mr-3">FOLLOW US</span>
+                <div class="social-icons">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                    <a href="#"><i class="bi bi-pinterest"></i></a>
+                    <a href="#"><i class="bi bi-heart"></i></a>
+                </div>
+            </div>
+        </footer>
     </div>
 </template>
 <style>
@@ -70,15 +84,19 @@ export default {
     right: 250px;
     height: 450px;
     opacity: 0.5;
-    z-index: 1;
+    z-index: 0;
 }
 .footer-bg {
     background: url('../assets/footer-bg.jpg') no-repeat center center;
     background-size: cover;
+    position: relative;
+    z-index: -1;
 }
 .footer-links {
     color: white;
     padding: 20px 0;
+    position: relative;
+    z-index: 2;
 }
 .footer-links ul {
     padding: 0;
@@ -95,5 +113,32 @@ export default {
 .footer-links a:hover {
     text-decoration: underline;
     color: white;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    z-index: 2;
+}
+.footer a {
+    color: #00f;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.social-icons a {
+    color: #999;
+    font-size: 24px;
+    margin: 0 10px;
+}
+.social-icons a:hover {
+    color: #fff;
+}
+.white{
+    color: white;
+}
+.btn{
+    padding: 15px;
 }
 </style>

@@ -63,5 +63,37 @@ export default {
     </div>
 </template>
 <style>
+.bg-dc {
+    background: url('../assets/dc-logo-bg.png') no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    right: 250px;
+    height: 450px;
+    opacity: 0.5;
+    z-index: 1;
+}
+.footer-bg {
+    background: url('../assets/footer-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+.footer-links {
+    color: white;
+    padding: 20px 0;
+}
+.footer-links ul {
+    padding: 0;
+    list-style-type: none;
+}
 
+.footer-links a {
+    color: #929492;
+    text-decoration: none;
+    display: block;
+    padding: 2px 0;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: white;
+}
 </style>

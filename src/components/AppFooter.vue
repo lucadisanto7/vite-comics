@@ -120,6 +120,7 @@ export default {
     color: #fff;
     padding: 10px 0;
     z-index: 2;
+    padding: 20px;
 }
 .footer a {
     color: #00f;
@@ -131,7 +132,7 @@ export default {
 .social-icons a {
     color: #999;
     font-size: 24px;
-    margin: 0 10px;
+    margin: 0px 10px;
 }
 .social-icons a:hover {
     color: #fff;

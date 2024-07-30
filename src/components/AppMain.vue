@@ -168,5 +168,41 @@ h5 {
     background-size: cover;
     padding-bottom: 0px;
 }
+.bg-dark {
+    background-color: #000;
+}
 
+.comics .card {
+    background-color: transparent;
+}
+
+.comics .card-title {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.comics .card-text {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.btn-primary {
+    background-color: #0383f9;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.comic-img{
+    width: 200px;
+    height: 200px;
+}
+.container{
+    position: relative;
+}
+.label{
+    position: absolute;
+    width: 21%;
+    top: -75px;
+    font-size: 30px;
+}
 </style>

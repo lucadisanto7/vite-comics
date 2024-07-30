@@ -66,11 +66,11 @@ export default {
             <div class="d-flex align-items-center">
                 <span class="mr-3">FOLLOW US</span>
                 <div class="social-icons">
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-twitter"></i></a>
-                    <a href="#"><i class="bi bi-youtube"></i></a>
-                    <a href="#"><i class="bi bi-pinterest"></i></a>
-                    <a href="#"><i class="bi bi-heart"></i></a>
+                    <a href="#"><img src="../assets/footer-facebook.png" alt=""></a>
+                    <a href="#"><img src="../assets/footer-periscope.png" alt=""></a>
+                    <a href="#"><img src="../assets/footer-pinterest.png" alt=""></a>
+                    <a href="#"><img src="../assets/footer-twitter.png" alt=""></a>
+                    <a href="#"><img src="../assets/footer-youtube.png" alt=""></a>
                 </div>
             </div>
         </footer>

@@ -4,7 +4,7 @@ export default {
 }
 </script>
 <template>
-    <header class="bg-white py-3">
+    <header class="bg-white pt-3">
         <div class="container d-flex align-items-center justify-content-between">
             <img src="../assets/dc-logo.png" alt="DC Logo" class="me-3">
             <nav class="flex-grow-1">
@@ -60,7 +60,7 @@ export default {
         width: 0;
         height: 5px;
         display: block;
-        margin-top: 15px;
+        margin-top: 50px;
         right: 0;
         background: #0383f9;
         transition: width 0.3s ease;

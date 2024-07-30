@@ -5,11 +5,12 @@ export default {
 </script>
 <template>
     <main>
-    <section class="bg-dark text-white py-5">
+    <section class="text-white py-5">
+        <div class="jumbotron"></div>
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <h1>-> Content goes here <-</h1>
+                <div class="col-12">
+                    
                 </div>
             </div>
         </div>
@@ -63,5 +64,10 @@ h5 {
 .bg-blue{
     background-color: #0383f9;
 }
-
+.jumbotron{
+    background: url('../assets/jumbotron.jpg') no-repeat;
+    width: 100%;
+    height: 600px; 
+    background-size: cover;
+}
 </style>
